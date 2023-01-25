@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-color: #585454;
+}
+
+button.rec-dot{
+  background-color: rgb(110, 110, 110);
+  box-shadow: 0 0 1px 3px rgba(24, 24, 24, 0.5);
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+  box-shadow: 0 0 1px 3px rgb(255, 255, 255, 0.5);
+}
+
+button.rec.rec-arrow {
+    background-color: rgb(110, 110, 110);
+    color: aliceblue;
+}
+
+button.rec.rec-arrow:active, button.rec.rec-arrow:focus {
+    background-color: rgb(110, 110, 110);
+    color: aliceblue;
+}
+
+button.rec.rec-arrow:hover {
+    background-color: black;
+}

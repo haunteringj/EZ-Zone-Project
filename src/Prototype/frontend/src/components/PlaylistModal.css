@@ -1,0 +1,28 @@
+.noplaylist-button {
+    background-color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 5px;
+}
+
+.new-playlist {
+    background-color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 5px;
+}
+
+.playlist_input {
+    width: 60%;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
+    padding: 5px;
+}
+
+.playlist-cover{
+    margin: 30px;
+}

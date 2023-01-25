@@ -1,0 +1,12 @@
+.subscription_row {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.subscription_icon {
+    margin-left: 7px;
+    margin-right: 7px;
+    width: 50px;
+    height: 50px;
+}

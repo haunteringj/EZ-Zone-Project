@@ -1,0 +1,11 @@
+.album-titles{
+    background-color: aliceblue;
+    border: black 2px solid;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.playlist-cover{
+    width: 500px;
+    margin-bottom: 50px;
+}

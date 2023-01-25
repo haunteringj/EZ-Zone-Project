@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="topnav">
+        <a class="active" href="./dashboard.html">E-Zone</a>
+        <a href="./watchlisten.html">Watch / Listen</a>
+        <a class="account" href="./account.html">Account</a>
+        <div class="search-container">
+            <form action="./watchlisten.html">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="search-options">
+        <input type="text" placeholder="Search">
+        <div class="filters">
+            <label for="catagory">Apply Filters</label>
+            <select name="catagory" id="catagory">
+                <option value="film">Movie</option>
+                <option value="show">TV Show</option>
+                <option value="Album">Album</option>
+                <option value="Book">Book</option>
+            </select>
+        </div>
+    </div>
+    <div class="main-page">
+        <div class="enjoying">
+            <h2>Search Results:</h2>
+            <div class="all-slides">
+                    <button class="next-button"><</button>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Up!</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Movie</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Batman returns</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Orange is the new black</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Stranger things</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Movie title</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Movie title</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Movie title</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Movie title</div>
+
+                    </div>
+                    <button class="next-button">></button>
+            </div>
+        </div>
+    <div class="suggest">
+            <h2>Recommendations:</h2>
+            <div class="all-slides-2">
+                    <button class="next-button"><</button>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Up!</div>
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Movie Poster</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Batman returns</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Orange is the new black</div>
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Stranger things</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Song title</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">movie poster</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">movie poster</div>
+
+                    </div>
+                    
+                    <button class="next-button">></button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>

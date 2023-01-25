@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="topnav">
+        <a class="active" href="./dashboard.html">E-Zone</a>
+        <a href="./watchlisten.html">Watch / Listen</a>
+        <a class="account" href="./account.html">Account</a>
+        <div class="search-container">
+            <form action="./watchlisten.html">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </nav>
+
+    <div class="main-page">
+        <div class="enjoying">
+            <h2>Currently Enjoying:</h2>
+            <div class="all-slides">
+                    <button class="next-button"><</button>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Up!</div>
+                        <button id="like">Like</button>
+                    </div>
+                    <div class="movie2" id="posters" onclick="goToMovie(this)">
+                        <div class="square">Song 3</div>
+                        <button id="like">Like</button>
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Batman returns</div>
+                        <button id="like">Like</button>
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Orange is the new black</div>
+                        <button id="like">Like</button>
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Stranger things</div>
+                        <button id="like">Like</button>
+                    </div>
+                    <div class="movie2" id="posters" onclick="goToMovie(this)">
+                        <div class="square">Song title</div>
+                        <button id="like">Like</button>
+                    </div>
+                    <button class="next-button">></button>
+            </div>
+        </div>
+        <div class="suggest">
+            <h2>Recommendations:</h2>
+            <div class="all-slides-2">
+                    <button class="next-button"><</button>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Up!</div>
+                    </div>
+                    <div class="movie2" id="posters" onclick="goToMovie(this)">
+                        <div class="square">Song 3</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Batman returns</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Orange is the new black</div>
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">Stranger things</div>
+
+                    </div>
+                    <div class="movie2" id="posters" onclick="goToMovie(this)">
+                        <div class="square">Song title</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">movie poster</div>
+
+                    </div>
+                    <div class="movie1" id="posters" onclick="goToMovie(this)">
+                        <div class="rectangle">movie poster</div>
+
+                    </div>
+                    
+                    <button class="next-button">></button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

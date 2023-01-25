@@ -1,0 +1,61 @@
+.close-button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.modal-div {
+    margin: 0;
+    background-color: rgb(92, 92, 92);
+}
+
+.sub-options {
+    margin: 0;
+    background-color: rgb(92, 92, 92);
+}
+
+.layer {
+    position: relative;
+    float: left;
+    background-color: rgb(92, 92, 92);
+}
+
+.sub-icon {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    background-color: rgb(92, 92, 92);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.tick-icon {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+
+.sub-icon:hover{
+    background-color: rgb(29, 29, 29);
+}
+
+
+.modal-div {
+    text-align: center;
+    border-radius: 3px;
+    border: black 3px solid;
+}
+
+.close-button {
+    font-size: 20px;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    padding: 5px;
+    color: black;
+}

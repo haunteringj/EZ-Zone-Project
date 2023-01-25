@@ -1,0 +1,424 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #FF7052;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    padding: 20px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.topnav a:hover {
+    background-color: rgb(83, 83, 83);
+}
+
+.topnav a.active {
+    background-color: black;
+}
+
+.topnav a.account {
+    float: right;
+    border-left: 2px solid black;
+}
+
+.topnav input {
+    font-size: 20px;
+    margin: auto;
+    margin-top: 14px;
+
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav button {
+    font-size: 20px;
+    background-color: rgb(209, 96, 62);
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    background-color: rgb(83, 83, 83);
+    overflow: hidden;
+    width: 430px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.header {
+    position: relative;
+    left: 50%;
+    margin-left: -100%;
+    background: #FF7052;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+}
+
+.input-area {
+    position: relative;
+    display: inline;
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.input-area input {
+    width: 200px;
+    float: right;
+}
+
+
+#submit {
+    padding-top: 95px;
+    padding-bottom: 20px;
+}
+
+#submit button {
+    width: 50%;
+    height: 30px;
+}
+
+.main-page h2 {
+    padding-left: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.all-slides {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    justify-content: center;
+}
+
+.all-slides #posters {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.all-slides-2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.all-slides-2 #posters {
+    margin: 23px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+#posters #like {
+    border: 3px solid;
+    margin: 15px;
+}
+
+.next-button {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.square {
+    float: left;
+    height: 75px;
+    width: 75px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.rectangle {
+    float: left;
+    height: 150px;
+    width: 100px;
+    background-color: lime;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*  Account Page  */
+
+.account-page {
+    position: relative;
+    box-sizing: border-box;
+    height: 700px;
+    width: 100%;
+    padding: 10px;
+}
+
+/* movie page */
+.watch-page {
+    position: absolute;
+    box-sizing: border-box;
+    height: 90%;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.watch-page .left-side {
+    position: relative;
+    height: 700px;
+    text-align: center; 
+    border: 2px;
+
+}
+
+.watch-page .album-cover {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: greenyellow;
+    display: inline-block;
+    text-align: center;
+}
+
+.left-side .streaming-box {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+tr:nth-child(even) {
+    background-color:white;
+}
+
+.album-songs {
+    position: relative;
+    width: 400px;
+    height: 90px;
+    overflow: auto;
+    padding-left: 20%;
+}
+
+table {
+    height: 150px;
+    width: 100%;
+}
+
+table.scroll {
+    border-spacing: 0;
+    margin: 0;
+    display: block;
+    background-color: #FF7052;
+}
+
+thead tr th {
+    height: 30px;
+    width: 1000px;
+    background-color: grey;
+}
+
+table.scroll tbody {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+
+.album-length {
+    text-align: center;
+}
+
+.watch-page .movie {
+    position: relative;
+    height: 700px;
+    background-color: greenyellow;
+    width: 500px;
+    display: inline-block;
+}
+.watch-page .movie button {
+    float: right;
+}
+
+.watch-page .right-side {
+    position: relative;
+    height: 700px;
+}
+
+.right-side .movie-stuff {
+    text-decoration: none;
+    border-bottom: 3px solid;
+}
+.text-plot {
+    padding-left: 10px;
+}
+.movie-stuff .movie-info {
+    display: inline-block;
+    margin-left: 10%;
+    text-decoration: none;
+}
+.plot-info {
+    display: inline-block;
+
+}
+
+.watched {
+    float: right;
+}
+
+.left-side {
+    float: left;
+    height: 100%;
+    width: 50%;
+
+}
+
+.left-side .change-password {
+    padding: 20px;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 90px;
+}
+.right-side {
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(200, 200, 200);
+
+}
+
+.right-side h1 {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.history {
+    margin-top: 10%;
+    margin-left: 17%;
+    padding: 30px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 20px;
+}
+.streaming-box {
+    display: inline-block;
+    margin-left: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+}
+
+/*  Search items  */
+
+.search-options {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #FF7052;
+    background-color: grey;
+}
+
+.search-options input {
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.search-options .filters {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/*  rating and comments design  */
+
+.rate {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-top: 47px;
+
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    left:-9999px;
+}
+.rate:not(:checked) > label {
+    float: right;
+    cursor:pointer;
+    font-size: 25px;
+    color:grey;
+}
+.rate > input:checked ~ label {
+    color: orange;    
+}
+
+.comment-section {
+    position: relative;
+
+}
+
+.input-comment {
+    display: inline-block;
+}
+
+.new-comment {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid;
+
+}
+
+#comment {
+    margin-top: 23px;
+    width: 80%;
+    height: 80px;
+    margin-bottom: 23px;
+    margin-left: 5px;
+}
+
+#ucomment {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 23px;
+    margin-top: 23px;
+    margin-left: 5px;
+}
+
+.user-avatar img {
+    display: inline-block;
+
+    position: relative;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.user-avatar {
+    padding-top: 35px;
+    float: left;
+    display: inline-block;
+    width: 65px;
+}
